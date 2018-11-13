@@ -1,5 +1,9 @@
 module.exports = {
   plugins: {
-    'precss': {}
+    'postcss-css-variables': {
+      variables: {
+        'bgColor': 'blue'
+      }
+    }
   }
-}
+};
